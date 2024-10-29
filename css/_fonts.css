@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+  font-family: "Bebas Neue Book";
+  src: url("../fonts/BebasNeueBook.woff2") format("woff2"),
+    url("../fonts/BebasNeueBook.woff") format("woff"),
+    url("../fonts/BebasNeueBook.ttf") format("truetype"),
+    url("../fonts/BebasNeueBook.eot") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

@@ -1,0 +1,293 @@
+/* Extra small devices (phones, 425px and up) */
+@media screen and (min-width: 393px) {
+  /* ---------- Section Hero ----------*/
+  /* ----- Content -----*/
+  .section-hero .hero__content .content__card--yellow {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  /* ----- Content items -----*/
+  /* --- Logo item ---*/
+  .section-hero .hero__content .content__logo-card {
+    gap: 93px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__text {
+    font-size: 77.5px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__img {
+    width: 87px;
+  }
+  .section-hero .hero__content .content__link-item .item__title--wrap {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+  /* ---------- Section Hero ----------*/
+  .section-hero {
+    margin-bottom: 55px;
+  }
+  /* ----- Title -----*/
+  .section-hero .hero__title h1 {
+    max-width: none;
+    font-size: 65px;
+  }
+  .section-hero .hero__title .title__icon {
+    width: 44px;
+    height: 44px;
+    top: 0;
+    right: -48px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+  }
+
+  /* ----- Content -----*/
+  .section-hero .hero__content .content__card--orange {
+    top: 18px;
+  }
+  .section-hero .hero__content .content__card--yellow {
+    padding: 75px 34px 45px;
+  }
+
+  /* ----- Content items -----*/
+  .section-hero .content__card .content__items {
+    padding-bottom: 28px;
+  }
+  /* --- Logo item ---*/
+  .section-hero .hero__content .content__logo-card {
+    gap: 125px;
+    margin-bottom: 32px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__text {
+    font-size: 107px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__img {
+    width: 118px;
+  }
+  /* --- Link items ---*/
+  .section-hero .hero__content .content__link-items {
+    row-gap: 11px;
+  }
+  .section-hero .hero__content .content__link-item {
+    gap: 15px;
+    padding: 7px 28px 7px 7px;
+  }
+  .section-hero
+    .hero__content
+    .content__link-item:not(.content__link-item--qr) {
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+  .section-hero .hero__content .content__link-item .item__icon {
+    width: 50px;
+    height: 50px;
+  }
+  .section-hero .hero__content .content__link-item .item__title {
+    font-size: 16px;
+  }
+  .section-hero .hero__content .content__link-item .item__link {
+    font-size: 30.5px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+  .wrapper {
+    background-image: url("/images/page_cover.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  /* ---------- Section Hero ----------*/
+  /* ----- Title -----*/
+  .section-hero .hero__title h1 {
+    font-size: 77px;
+  }
+  /* ----- Content -----*/
+  .section-hero .hero__content .content__item-card {
+    border-radius: 44px;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    -ms-border-radius: 44px;
+    -o-border-radius: 44px;
+  }
+  .section-hero .hero__content .content__card--yellow {
+    padding: 97px 34px 55px;
+  }
+  /* ----- Content items -----*/
+  .section-hero .content__card .content__items {
+    padding-bottom: 0px;
+  }
+  /* --- Logo item ---*/
+  .section-hero .hero__content .content__logo-card {
+    gap: 160px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__text {
+    font-size: 137px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__img {
+    width: 150px;
+  }
+
+  /* --- Link items ---*/
+  .section-hero .hero__content .content__link-items,
+  .section-hero .hero__content .content__link-items--qr {
+    row-gap: 16px;
+  }
+  .section-hero .hero__content .content__link-item {
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  .section-hero
+    .hero__content
+    .content__link-item:not(.content__link-item--qr) {
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+  }
+  .section-hero .hero__content .content__link-item .content__link-item--qr {
+    border-radius: 27px;
+    -webkit-border-radius: 27px;
+    -moz-border-radius: 27px;
+    -ms-border-radius: 27px;
+    -o-border-radius: 27px;
+  }
+  .section-hero .hero__content .content__link-item {
+    width: 48.5%;
+  }
+  .section-hero
+    .hero__content
+    .content__link-items--qr
+    .content__link-item--400 {
+    width: 405px;
+  }
+  .section-hero
+    .hero__content
+    .content__link-items--qr
+    .content__link-item--qr {
+    width: 100%;
+    height: auto;
+  }
+  .section-hero .hero__content .content__link-items--qr .item__title--wrap {
+    max-width: 315px;
+  }
+  .section-hero .hero__content .content__link-items--qr .content__qr-item {
+    width: auto;
+    height: 221px;
+    right: 0;
+    top: 0;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+  }
+  .section-hero .hero__content .content__qr-item .qr-background {
+    display: block;
+  }
+  .section-hero .hero__content .content__qr-item .qr-img {
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    top: 21px;
+    right: 21px;
+    -o-object-fit: contain;
+    object-fit: contain;
+  }
+  .section-hero .hero__content .content__link-item .item__icon {
+    width: 70px;
+    height: 70px;
+  }
+  .section-hero .hero__content .content__link-item .item__title {
+    font-size: 21.5px;
+  }
+  .section-hero .hero__content .content__link-item .item__link {
+    font-size: 39.5px;
+  }
+  .section-hero .hero__content .content__link-item .item__icon-external {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+  /* ---------- Section Hero ----------*/
+  .section-hero {
+    margin-bottom: 78px;
+  }
+  /* ----- Title -----*/
+  .section-hero .hero__title h1 {
+    font-size: 87px;
+  }
+
+  /* ----- Content -----*/
+  .section-hero .hero__content .content__card--yellow {
+    padding: 121px 34px 66px;
+  }
+
+  /* ----- Content items -----*/
+  .section-hero
+    .hero__content
+    .content__item-card:not(.content__link-item--qr) {
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+  }
+  /* --- Logo item ---*/
+  .section-hero .hero__content .content__logo-card {
+    gap: 185px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__text {
+    font-size: 176px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__img {
+    width: 190px;
+  }
+
+  /* --- Link items ---*/
+  .section-hero .hero__content .content__link-item .item__icon {
+    width: 90px;
+    height: 90px;
+  }
+  .section-hero .hero__content .content__link-item .item__title {
+    font-size: 27px;
+  }
+  .section-hero .hero__content .content__link-items--qr .item__title--wrap {
+    max-width: 300px;
+  }
+  .section-hero .hero__content .content__link-item .item__link {
+    font-size: 44.5px;
+  }
+  .section-hero .hero__content .content__link-item .item__icon-external {
+    display: none;
+  }
+
+  .section-hero .hero__content .content__link-items--qr .content__qr-item {
+    width: auto;
+    height: 267px;
+  }
+  .section-hero .hero__content .content__qr-item .qr-img {
+    width: 250px;
+    height: 220px;
+    top: 24px;
+  }
+
+  /* ---------- Section News ----------*/
+  .section-news .news__container {
+    padding: 34px;
+    border-top-left-radius: 77px;
+    border-top-right-radius: 77px;
+  }
+}
