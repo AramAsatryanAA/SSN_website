@@ -199,6 +199,13 @@ a:active {
   -ms-transform: translateX(33%);
   -o-transform: translateX(33%);
 }
+.section-hero .hero__content .content__logo-card .logo__img-crown {
+  position: absolute;
+  width: 70px;
+  aspect-ratio: 1.5;
+  top: -21px;
+  right: 4.5px;
+}
 /* --- Link items ---*/
 .section-hero .hero__content .content__link-items {
   display: flex;

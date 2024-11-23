@@ -17,6 +17,11 @@
   .section-hero .hero__content .content__logo-card .logo__img {
     width: 87px;
   }
+  .section-hero .hero__content .content__logo-card .logo__img-crown {
+    width: 75px;
+    top: -22px;
+    right: 5.5px;
+  }
   .section-hero .hero__content .content__link-item .item__title--wrap {
     font-size: 14px;
   }
@@ -77,6 +82,10 @@
   }
   .section-hero .hero__content .content__logo-card .logo__img {
     width: 118px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__img-crown {
+    width: 106px;
+    top: -33px;
   }
   /* --- Link items & dropdown ---*/
   .section-hero .hero__content .content__link-items {
@@ -167,6 +176,11 @@
   .section-hero .hero__content .content__logo-card .logo__img {
     width: 150px;
   }
+  .section-hero .hero__content .content__logo-card .logo__img-crown {
+    width: 136px;
+    top: -42px;
+    right: 5.5px;
+  }
 
   /* --- Link items & dropdown ---*/
   .section-hero .hero__content .content__link-items {
@@ -251,6 +265,11 @@
   }
   .section-hero .hero__content .content__logo-card .logo__img {
     width: 190px;
+  }
+  .section-hero .hero__content .content__logo-card .logo__img-crown {
+    width: 170px;
+    top: -50px;
+    right: 10px;
   }
 
   /* --- Link items & dropdown ---*/
