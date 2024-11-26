@@ -67,8 +67,10 @@ a:active {
   width: 100%;
   min-height: 100dvh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 25px;
   margin: 35px 0;
 }
 .section-hero .hero__container {
@@ -295,7 +297,7 @@ a:active {
 }
 
 /* ----- Scroll -----*/
-/* .hero__scroll {
+.hero__scroll {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,7 +312,7 @@ a:active {
   font-family: var(--font-inter);
   font-size: 21px;
   font-weight: 600;
-} */
+}
 
 /* ---------- Section News ----------*/
 .section-news .news__container {
